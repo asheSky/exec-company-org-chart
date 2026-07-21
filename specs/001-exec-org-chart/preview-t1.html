@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>T1 Preview — Microsoft · exec-company-org-chart</title>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'neutral', flowchart: { curve: 'basis' } });
+</script>
+<style>
+  :root { --ink:#14171f; --mut:#5b6270; --line:#e3e1d9; --blue:#0c4da2; --paper:#faf9f5; }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 15px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:var(--paper); }
+  main { max-width: 860px; margin: 0 auto; padding: 48px 24px 80px; }
+  .tag { text-transform: uppercase; letter-spacing:.14em; font-size: 11px; font-weight: 700; color: var(--blue); }
+  h1 { margin: 6px 0 2px; font-size: 30px; letter-spacing: -.02em; }
+  .meta { color: var(--mut); font-size: 13px; margin-bottom: 28px; }
+  .meta a { color: var(--blue); text-decoration: none; }
+  section { background:#fff; border:1px solid var(--line); border-radius:10px; padding:22px; margin-bottom:18px; }
+  section h2 { margin:0 0 14px; font-size:13px; text-transform:uppercase; letter-spacing:.12em; color:var(--mut); }
+  .mermaid { display:flex; justify-content:center; overflow-x:auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 14px; }
+  th, td { text-align:left; padding: 9px 10px; border-bottom: 1px solid var(--line); }
+  th { font-size: 11px; text-transform: uppercase; letter-spacing:.1em; color: var(--mut); }
+  td a { color: var(--blue); }
+  .notes { color: var(--mut); font-size: 13.5px; }
+  .receipt { font-family: ui-monospace, Menlo, monospace; font-size: 13px; color: var(--ink); background:#f1efe8; border:1px solid var(--line); border-radius:8px; padding:12px 16px; }
+  footer { color:var(--mut); font-size:12px; margin-top:26px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="tag">exec-company-org-chart · Test T1 preview</div>
+  <h1>Microsoft — Executive Team</h1>
+  <div class="meta">Official source: <a href="https://news.microsoft.com/source/leadership/" target="_blank">microsoft.com</a> · As of 2026-07-21</div>
+
+  <section>
+    <h2>Org chart · Level 1</h2>
+    <pre class="mermaid">
+graph TD
+  n1["Satya Nadella<br/><i>Chairman and Chief Executive Officer</i>"]
+  n1 --> n2["Brad Smith<br/><i>Vice Chair and President</i>"]
+  n1 --> n3["Amy Hood<br/><i>Executive Vice President and Chief Financial Officer</i>"]
+  n1 --> n4["Judson Althoff<br/><i>CEO, Microsoft Commercial Business</i>"]
+  n1 --> n5["Amy Coleman<br/><i>Executive Vice President and Chief People Officer</i>"]
+  n1 --> n6["Takeshi Numoto<br/><i>Executive Vice President and Chief Marketing Officer</i>"]
+    </pre>
+  </section>
+
+  <section>
+    <h2>Roster</h2>
+    <table>
+      <tr><th>#</th><th>Name</th><th>Title (verbatim)</th><th>Source</th></tr>
+      <tr><td>1</td><td>Satya Nadella</td><td>Chairman and Chief Executive Officer</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">news.microsoft.com/source/leadership</a></td></tr>
+      <tr><td>2</td><td>Brad Smith</td><td>Vice Chair and President</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">same</a></td></tr>
+      <tr><td>3</td><td>Amy Hood</td><td>Executive Vice President and Chief Financial Officer</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">same</a></td></tr>
+      <tr><td>4</td><td>Judson Althoff</td><td>CEO, Microsoft Commercial Business</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">same</a></td></tr>
+      <tr><td>5</td><td>Amy Coleman</td><td>Executive Vice President and Chief People Officer</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">same</a></td></tr>
+      <tr><td>6</td><td>Takeshi Numoto</td><td>Executive Vice President and Chief Marketing Officer</td><td><a href="https://news.microsoft.com/source/leadership/" target="_blank">same</a></td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Notes</h2>
+    <p class="notes">Microsoft's page lists "Executive Officers" as its executive group — that page-defined set is the chart. A separate Board of Directors section (12 members) exists on the same page and is excluded per skill rules (board/advisors out unless asked).</p>
+  </section>
+
+  <div class="receipt">6 executives · source: page · microsoft.com · as of 2026-07-21</div>
+
+  <footer>Rendered exactly from the skill's Phase E output template. Mermaid via CDN — needs internet to render the diagram.</footer>
+</main>
+</body>
+</html>
